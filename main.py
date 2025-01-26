@@ -10,7 +10,7 @@ if __name__ == "__main__":
     dicts = organize_weather_data(cities)
     #print(dicts)
 
-    #insert_to_database(dicts)
+    insert_to_database(dicts)
     top_temp_data = fetch_top_temp()
     weather_data = fetch_city_weather()
     max_temp_data = fetch_max_temp()
