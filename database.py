@@ -59,8 +59,8 @@ def fetch_top_temp():
         cursor.close()
         conn.close()
 
-        for row in rows:
-            print(row)
+        # for row in rows:
+        #     print(row)
 
         return rows
     
@@ -91,8 +91,8 @@ def fetch_city_weather():
         cursor.close()
         conn.close()
 
-        for row in rows:
-            print(row)
+        # for row in rows:
+        #     print(row)
 
         return rows
     
@@ -123,8 +123,8 @@ def fetch_max_temp():
         cursor.close()
         conn.close()
 
-        for row in rows:
-            print(row)
+        # for row in rows:
+        #     print(row)
 
         return rows
     
@@ -155,8 +155,8 @@ def fetch_min_temp():
         cursor.close()
         conn.close()
 
-        for row in rows:
-            print(row)
+        # for row in rows:
+        #     print(row)
 
         return rows
     
@@ -187,8 +187,8 @@ def fetch_humidity():
         cursor.close()
         conn.close()
 
-        for row in rows:
-            print(row)
+        # for row in rows:
+        #     print(row)
 
         return rows
     
@@ -219,8 +219,8 @@ def fetch_top_wind_speeds():
         cursor.close()
         conn.close()
 
-        for row in rows:
-            print(row)
+        # for row in rows:
+        #     print(row)
 
         return rows
     
